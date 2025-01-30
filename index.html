@@ -1,0 +1,124 @@
+<html> 
+
+<head> 
+
+<title id="Topo">Introdução ao HTML</title> 
+
+<body>
+   <h1>INTRODUÇÃO AO HTML NA PRÁTICA</h1>
+   <p>Os primeiros passos para aprender a criar e desenvolver uma página HTML é aprender a instalar e configurar o seu ambiente para desenvolvimento para então entender o funcionamento do inspetor de elementos do navegador. O uso de ferramentas para o desenvolvimento de páginas HTML não segue obrigatoriamente um editor de texto específico. No nosso caso indicaremos alguns programas e plugins que recomendamos.</p> 
+   <h2>FERRAMENTAS UTILIZADAS</h2>
+   <img width= 250 src="https://matthewsetter.com/images/posts/getting-started-with-vscode.avif" alt="Visual Studio Code: Editor de código-fonte gratuito e multiplataforma">
+   <p>Para desenvolvermos a criação da nossa primeira página usaremos o Visual Studio Code – VSC.</p>
+   <p>Se trata de um editor de código-fonte gratuito e multiplataforma, desenvolvido pela big tech Microsoft. Ele é uma ferramenta para desenvolvedores de software que permite criar e editar código em várias linguagens de programação.O programa pode ser baixado clicando no link abaixo:</p>
+   <ul><a href="https://code.visualstudio.com/">LINK para VSC</a></ul>
+   <p>Siga as instruções contidas no próprio site para instalar o programa de acordo com as especificações de sua máquina. Uma dica que damos é instalar uma versão anterior a que o site indica pois será uma versão já testada e livre de possível erros de desenvolvimento que são regulares a uma nova atualização de qualquer programa.</p>
+   <p>Após instalado o programa em sua máquina, no ambiente do VSC, instale o plugin Live Server em sua aba de Extensões. Pode abrir a área usando o atalho Ctrl+Shift+X no seu teclado no VSC. Instalado o plugin, este te ajudará criando um servidor local para hospedar seu projeto e atualizar automaticamente uma página quando você fizer alterações no seu código. Feito isso poderemos passar para o próximo passo.</p>
+   <h2>INSPETOR DE ELEMENTOS</h2>
+   <p>O inspetor de elementos é uma ferramenta que nos permite visualizar e modificar o código fonte de uma página dentro do navegador. Para isso pode ser utilizado qualquer navegador que o usuário tenha o hábito de usar (Microsoft Edge, Google Chrome, Opera, Safari, FireFox, dentre outros). No nosso caso usaremos o Google Chrome. O inspetor de elementos pode ser aberto usando o atalho F12 do seu teclado ou no Personalizar e Controlar no Google Chrome (isso será em negrito). Ao abrir o inspetor, podemos observar vários elementos da construção da página tais como fonte, corpo do texto dentre outros que abordaremos logo mais.</p>
+   <h2>ESTRUTURA BÁSICA DO HTML</h2>
+   <p>Vamos criar nossa primeira HTML? Para isso no nosso VSC criamos uma pasta na qual iremos alocar nossos arquivos que iremos criar para a página. Nessa pasta criamos um arquivo, também pelo VSC com o nome de <i>index.html</i>, seguindo o sugerido pelas notações padrão de boas práticas de código.</p>
+   <p>O HTML consiste basicamente em 3 partes:</p>
+   <ol>
+    <li>Criamos uma Tag HTML usando o código <html> </html> tudo que ficar dentro desse código fará parte da página.</li>
+    <li>Criamos uma nova Tag dentro da html que chamamos de Cabeça usando o código <head></head></li>
+    <li>Dentro deste código criamos o Corpo da página com o código <body></Body> Tudo que estiver dentro desta tag irão aparecer para o usuário, ao contrário do Head que irá carregar antes de aparecer.</li>
+    </ol>
+   <h2></h2>
+   <p>Estes são os elementos fundamentais usados para criar uma página. Tudo mais será incrementado a partir destas 3 tags. Por exemplo, dentro da Tag Cabeça podemos inserir a Tag <title></title> e dentro dela podemos atribuir um título para nossa página que será observado na aba do navegador. Usando o Live Server podemos usar dentro do VSC o comando Alt+L ou Alt+O para observar tal feito. No nosso caso usaremos a tag Title <title>Introdução ao HTML</title> </p>
+   <p>Dessa forma teremos nossos primeiros passos: </p>
+   <p><html> 
+
+    <head> 
+    
+    <title>Introdução ao HTML</title> 
+    
+    <body></body> 
+    
+    </head> 
+    
+    </html></p>
+    <h2>FALANDO SOBRE TAGS</h2>
+    <p>Como já mostramos, são 3 os tipos primordiais de tag: html, head e body.</p>
+    <p>Mas o que são elas? A tags (nome em inglês), são etiquetas que usamos nos códigos carregando funções dentro delas. Ou seja, as tags são usadas como identificação para modificações em nosso código. Muitas tags trazem consigo uma modificação ou aplicação a uma pagina que podem ser especificadas uma única vez como a tag <img/> (usada para imagens que abordaremos logo mais) ou precisam de comando de inicio e fim como a própria tag html que precisamos do comando <html> marcando o início da página e </html> marcando o fim. A barra então indicará o fim de uma tag. Mas quais são e como e quando usá-las? </p>
+    <p>As tags são muitas e cada uma carrega uma função e atributo ao código. Abordaremos agora algumas tags que são mais comumente utilizadas dentro das páginas e para que servem.</p>
+        <h3>Itálico</h3>
+        <p><i></i> </p>
+        <p>Esta tag carrega a fonte itálica, uma tipografia que modifica a estrutura padrão deixando as letras levemente inclinadas. Servem para dar destaque ou enfatizar uma palavra, frase, sitação, etc dentro de um contexto no corpo do texto. Usualmente para palavras estrangeiras a linguagem do texto utilizada, para dar uma diferenciação em algo que queira exprimir dentro do texto, dentre outros.</p>
+        <h3>Negrito</h3>
+        <p><strong></strong></p>
+        <p>Esta tag deixa as letras do texto mais escuras e grossas, dando grande ênfase ao que se pretende dizer ou grande destaque em uma palavra. Usada quando quer se dar destaque ou deixar um forte contraste de algo em um texto.</p>
+        <h3>Imput</h3>
+        <p><imput/></p>
+        <p>Usado para atribuir um campo de entrada de texto ou números, de acordo com os atributos. Cria uma caixa de entrada na html onde pode ser inserido conteúdo pelo usuário.</p>
+        <h3>Imagem</h3>
+        <p><img/></p>
+        <p>Insere uma imagem a html. Pode ser editada e configurada com o uso de atributos que farão a imagem ser inserida de acordo com a necessidade do desenvolvedor.</p>
+        <p>Lembrando que as tags podem ser usadas sozinhas ou separadamente, de acordo com a preferência ou intenção de que está escrevendo. Entretando, convencionalmente existem algumas orientações de boas práticas no uso das tags que para maior aprofundamento podem ser verificado no link a seguir:</p>
+        <ul><a href="https://byb.ag/blog/o-que-e-tag-html/">O que é Tag</a></ul>
+    <h2>ATRIBUTOS DAS TAGS</h2>
+    <p>São propriedades que uma tag pode ter. Alguns atributos são mais genéricos, ou seja, podem ser usados em diversas tags. Já algumas são específicas a tag utilizada, atendendo os requisitos em particular daquele caso. Para isso listaremos alguns atributos utilizados em tags que são mais comuns de serem encontrados.</p>
+        <h3>id=”titulo”</h3>
+        <p>É um identificador de atribuição de título, deixando a fonte e o tamanho da fonte com as configurações que já vem pré-estabelecidas em Java Script pelo navegador.</p>
+        <h3>style=”color: blue” ou class= “titulo-principal”</h3>
+        <p>Mais utilizados no CSS, são comandos pré-definidos que orientam como o navegador irá formatar o texto tais como cor, tamanho da fonte, dentre outros.</p>
+        <h3>img src=</h3>
+        <p>O atributo "src=” possibilida incluir imagens no html que pode ser inserido a partir de um caminho que pode ser do uruário ou em link para página da internet.</p>
+        <p>Além disso podemos usar o atributo width="tamanho da imagem” atribuindo um número para tamanho da imagem.</p>
+        <p>Exemplo:</p>
+        
+        <img width="250" src="https://hinouye.wordpress.com/wp-content/uploads/2020/09/ac3d0cd64139acbbb9735f33624341d85f938a31_hq.jpg">
+    <h2>TEXTOS</h2>
+    <P>Existem tags específicas para textos, ou seja, tipografia html. Alguns com a finalidade bem específicas e mais usuais na criação de uma página.</P>
+        <h3>Os Hs</h3>
+        <p>As tags tipo H (h1, h2, h3, h4, h5 e h6), são atribuídas a títulos e subtítulos dentro de um texto dando uma formatação e um nível de acordo com cada desinência.</p>
+        <p>O h1 será o título principal de seu texto, sendo os demais subtítulos deste primeiro.</p>
+        <p>Exemplo:
+        <h1>Título Principal</h1> 
+        <h2>Subtítulo</h2></p>
+        <h3>Parágrafo</h3>
+        <p><p></p></p>
+        <p>A tag parágrafo é voltada para o elemento textual em si, ou seja, o que se pretende dizer na página, o conteúdo da informação precedida do título.</p>
+        <h3>Citação</h3>
+        <p>Quando houver necessidades de fazer uma citação durante o texto e deixar uma parte de destaque no seu html.</p>
+        <p>Exemplo:</p>
+        <blockquote>"Você merece estar entre pessoas que não precise olhar no fundo delas para 'encontrar a parte boa'. Você merece receber oque tem de bom na superfície delas.”</blockquote>
+    <p>Existem várias tags que podem ser utilizadas para agregar no seu texto. Recomendo o link abaixo para continuar navegando as inúmeras possibilidades de uso das tags.</p>
+    <ul><a href="https://www.w3schools.com/tags/ref_html_browsersupport.asp">TAGs HTML</a></ul>
+    <H2>LISTAS</H2>
+    <P>As listas são utilizadas para pontuar, ordenado ou não, dentro do seu texto. De acordo com sua necessidade a lista pode ser ordenada por posição ou ícones onde não há critério de ordem.</P>
+    <p>Para <strong>listas ordenadas</strong> usamos o comando ol (ordinal list) e para <strong>listas não ordenadas</strong> usamos o comando ul (unordinal list).</p>
+    <p>Exemplo de lista ordenada no passo a passo de fazer um bolo:</p>
+        <ol>
+            <li>Pré aquecer o forno</li>
+            <li>Bater a massa</li>
+            <li>Passar a massa para uma forma untada</li>
+            <li>Levar ao forno para assar.</li>
+        </ol>
+    <p>Exemplo de lista não ordenada em uma lista de compras de supermercado:</p>
+    <ul>
+        <li>arroz</li>
+        <li>açúcar</li>
+        <li>suco</li>
+        <li>detergente</li>
+    </ul>
+    <h2>LINKS</h2>
+    <P>Todo site em que você clica em um link e é levado a outra página, você diz que está navegando na internet. Para isso usamos uma tag chamada Âncora. Ela é utilizada para levar o usuário a outro endereço web do qual esteja linkada.</P>
+    <p>Os links podem ser para páginas em outros sites ou mesmo dentro do próprio site ou até mesmo a mesma página</p>
+    <p> Exemplos:</p>
+    <p>Link para a mesma página:</p>
+    <a href=""></a>
+    <p>Link para páginas de outro site.</p>
+    <a href="https://web.dio.me/home">DIO.ME</a>
+    <p>Link para página dentro do mesmo site:</p>
+    <a href="About.html">ABOUT</a>
+    <P> <a href="#">Voltar ao topo</a></P>
+ 
+   
+
+ 
+</body> 
+ 
+</head> 
+ 
+</html>
